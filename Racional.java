@@ -40,4 +40,10 @@ public interface Racional {
      * Invariante de representacion, chequea que el denominador sea diferente de 0
      */
     public boolean repOk();
+
+    /**
+     * Retorna una representacion del racional de la forma 
+     * "numerador/denominador"
+     */
+    public String toString();
 }
